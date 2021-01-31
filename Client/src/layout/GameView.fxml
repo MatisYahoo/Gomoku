@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="736.0" maxWidth="914.0" minHeight="650.0" minWidth="656.0" prefHeight="736.0" prefWidth="656.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="logic.Controller">
+   <center>
+      <AnchorPane prefHeight="747.0" prefWidth="950.0" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane alignment="CENTER" gridLinesVisible="true" layoutX="51.0" layoutY="114.0" prefHeight="554.0" prefWidth="566.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Pane id="a9" fx:id="a9pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;">
+                     <children>
+                        <ImageView fx:id="a9" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickA9" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="b8" fx:id="b9pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="1">
+                     <children>
+                        <ImageView fx:id="b9" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickB9" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="c8" fx:id="c9pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="2">
+                     <children>
+                        <ImageView fx:id="c9" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickC9" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="d8" fx:id="d9pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="3">
+                     <children>
+                        <ImageView fx:id="d9" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickD9" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="e8" fx:id="e9pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="4">
+                     <children>
+                        <ImageView fx:id="e9" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickE9" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="f8" fx:id="f9pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="5">
+                     <children>
+                        <ImageView fx:id="f9" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickF9" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="g8" fx:id="g9pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="6">
+                     <children>
+                        <ImageView fx:id="g9" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickG9" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="h8" fx:id="h9pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="7">
+                     <children>
+                        <ImageView fx:id="h9" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickH9" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="i8" fx:id="i9pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="8">
+                     <children>
+                        <ImageView fx:id="i9" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickI9" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="a8" fx:id="a8pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fx:id="a8" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickA8" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="b8" fx:id="b8pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fx:id="b8" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickB8" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="c8" fx:id="c8pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fx:id="c8" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickC8" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="d8" fx:id="d8pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fx:id="d8" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickD8" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="e8" fx:id="e8pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fx:id="e8" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickE8" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="f8" fx:id="f8pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fx:id="f8" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickF8" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="g8" fx:id="g8pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fx:id="g8" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickG8" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="h8" fx:id="h8pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fx:id="h8" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickH8" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="i8" fx:id="i8pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="8" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fx:id="i8" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickI8" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="a7" fx:id="a7pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.rowIndex="2">
+                     <children>
+                        <ImageView fx:id="a7" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickA7" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="b7" fx:id="b7pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <children>
+                        <ImageView fx:id="b7" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickB7" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="c7" fx:id="c7pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <children>
+                        <ImageView fx:id="c7" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickC7" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="d7" fx:id="d7pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <children>
+                        <ImageView fx:id="d7" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickD7" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="e7" fx:id="e7pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                     <children>
+                        <ImageView fx:id="e7" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickE7" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="f7" fx:id="f7pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                     <children>
+                        <ImageView fx:id="f7" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickF7" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="g7" fx:id="g7pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                     <children>
+                        <ImageView fx:id="g7" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickG7" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="h7" fx:id="h7pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                     <children>
+                        <ImageView fx:id="h7" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickH7" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="i7" fx:id="i7pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="8" GridPane.rowIndex="2">
+                     <children>
+                        <ImageView fx:id="i7" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickI7" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="a6" fx:id="a6pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.rowIndex="3">
+                     <children>
+                        <ImageView fx:id="a6" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickA6" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="b6" fx:id="b6pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <children>
+                        <ImageView fx:id="b6" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickB6" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="c6" fx:id="c6pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <children>
+                        <ImageView fx:id="c6" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickC6" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="d6" fx:id="d6pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                     <children>
+                        <ImageView fx:id="d6" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickD6" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="e6" fx:id="e6pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                     <children>
+                        <ImageView fx:id="e6" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickE6" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="f6" fx:id="f6pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                     <children>
+                        <ImageView fx:id="f6" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickF6" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="g6" fx:id="g6pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                     <children>
+                        <ImageView fx:id="g6" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickG6" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="h6" fx:id="h6pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                     <children>
+                        <ImageView fx:id="h6" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickH6" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="i6" fx:id="i6pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="8" GridPane.rowIndex="3">
+                     <children>
+                        <ImageView fx:id="i6" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickI6" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="a5" fx:id="a5pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.rowIndex="4">
+                     <children>
+                        <ImageView fx:id="a5" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickA5" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="b5" fx:id="b5pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <children>
+                        <ImageView fx:id="b5" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickB5" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="c5" fx:id="c5pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <children>
+                        <ImageView fx:id="c5" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickC5" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="d5" fx:id="d5pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                     <children>
+                        <ImageView fx:id="d5" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickD5" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="e5" fx:id="e5pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                     <children>
+                        <ImageView fx:id="e5" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickE5" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="f5" fx:id="f5pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                     <children>
+                        <ImageView fx:id="f5" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickF5" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="g5" fx:id="g5pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                     <children>
+                        <ImageView fx:id="g5" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickG5" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="h5" fx:id="h5pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                     <children>
+                        <ImageView fx:id="h5" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickH5" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="i5" fx:id="i5pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="8" GridPane.rowIndex="4">
+                     <children>
+                        <ImageView fx:id="i5" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickI5" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="a4" fx:id="a4pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.rowIndex="5">
+                     <children>
+                        <ImageView fx:id="a4" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickA4" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="b4" fx:id="b4pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <children>
+                        <ImageView fx:id="b4" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickB4" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="c4" fx:id="c4pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                     <children>
+                        <ImageView fx:id="c4" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickC4" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="d4" fx:id="d4pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                     <children>
+                        <ImageView fx:id="d4" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickD4" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="e4" fx:id="e4pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                     <children>
+                        <ImageView fx:id="e4" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickE4" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="f4" fx:id="f4pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                     <children>
+                        <ImageView fx:id="f4" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickF4" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="g4" fx:id="g4pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                     <children>
+                        <ImageView fx:id="g4" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickG4" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="h4" fx:id="h4pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                     <children>
+                        <ImageView fx:id="h4" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickH4" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="i4" fx:id="i4pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="8" GridPane.rowIndex="5">
+                     <children>
+                        <ImageView fx:id="i4" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickI4" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="a3" fx:id="a3pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.rowIndex="6">
+                     <children>
+                        <ImageView fx:id="a3" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickA3" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="b3" fx:id="b3pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <children>
+                        <ImageView fx:id="b3" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickB3" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="c3" fx:id="c3pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                     <children>
+                        <ImageView fx:id="c3" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickC3" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="d3" fx:id="d3pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                     <children>
+                        <ImageView fx:id="d3" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickD3" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="e3" fx:id="e3pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                     <children>
+                        <ImageView fx:id="e3" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickE3" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="f3" fx:id="f3pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                     <children>
+                        <ImageView fx:id="f3" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickF3" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="g3" fx:id="g3pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                     <children>
+                        <ImageView fx:id="g3" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickG3" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="h3" fx:id="h3pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                     <children>
+                        <ImageView fx:id="h3" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickH3" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="i3" fx:id="i3pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="8" GridPane.rowIndex="6">
+                     <children>
+                        <ImageView fx:id="i3" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickI3" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="a2" fx:id="a2pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.rowIndex="7">
+                     <children>
+                        <ImageView fx:id="a2" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickA2" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="b2" fx:id="b2pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                     <children>
+                        <ImageView fx:id="b2" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickB2" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="c2" fx:id="c2pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                     <children>
+                        <ImageView fx:id="c2" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickC2" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="d2" fx:id="d2pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                     <children>
+                        <ImageView fx:id="d2" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickD2" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="e2" fx:id="e2pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                     <children>
+                        <ImageView fx:id="e2" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickE2" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="f2" fx:id="f2pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="5" GridPane.rowIndex="7">
+                     <children>
+                        <ImageView fx:id="f2" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickF2" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="g2" fx:id="g2pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                     <children>
+                        <ImageView fx:id="g2" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickG2" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="h2" fx:id="h2pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                     <children>
+                        <ImageView fx:id="h2" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickH2" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="i2" fx:id="i2pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="8" GridPane.rowIndex="7">
+                     <children>
+                        <ImageView fx:id="i2" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickI2" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="a1" fx:id="a1pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.rowIndex="8">
+                     <children>
+                        <ImageView fx:id="a1" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickA1" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="b1" fx:id="b1pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                     <children>
+                        <ImageView fx:id="b1" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickB1" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="c1" fx:id="c1pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                     <children>
+                        <ImageView fx:id="c1" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickC1" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="d1" fx:id="d1pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="3" GridPane.rowIndex="8">
+                     <children>
+                        <ImageView fx:id="d1" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickD1" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="e1" fx:id="e1pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="4" GridPane.rowIndex="8">
+                     <children>
+                        <ImageView fx:id="e1" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickE1" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="f1" fx:id="f1pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="5" GridPane.rowIndex="8">
+                     <children>
+                        <ImageView fx:id="f1" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickF1" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="g1" fx:id="g1pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="6" GridPane.rowIndex="8">
+                     <children>
+                        <ImageView fx:id="g1" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickG1" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="h1" fx:id="h1pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="7" GridPane.rowIndex="8">
+                     <children>
+                        <ImageView fx:id="h1" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickH1" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Pane id="i1" fx:id="i1pane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d4b96e;" GridPane.columnIndex="8" GridPane.rowIndex="8">
+                     <children>
+                        <ImageView fx:id="i1" fitHeight="62.5" fitWidth="62.5" onMouseClicked="#clickI1" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+
+               </children>
+            </GridPane>
+            <Label layoutX="55.0" layoutY="77.0" text="Przeciwnik:">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="enemyNick" layoutX="195.0" layoutY="77.0" text="Nick">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <GridPane layoutX="21.0" layoutY="113.0" prefHeight="555.0" prefWidth="22.0">
+               <columnConstraints>
+                  <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label fx:id="w8" text="8" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="w7" text="7" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="w6" text="6" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="w5" text="5" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="w4" text="4" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="w3" text="3" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="w2" text="2" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="w1" text="1" GridPane.rowIndex="8">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="w9" text="9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+            <GridPane alignment="CENTER" layoutX="50.0" layoutY="668.0" prefHeight="28.0" prefWidth="568.0">
+               <columnConstraints>
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label fx:id="k1" text="A">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="k2" text="B" GridPane.columnIndex="1">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="k3" text="C" GridPane.columnIndex="2">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="k4" text="D" GridPane.columnIndex="3">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="k5" text="E" GridPane.columnIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="k6" text="F" GridPane.columnIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="k7" text="G" GridPane.columnIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="k8" text="H" GridPane.columnIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="k9" text="I" GridPane.columnIndex="8">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+            <Label layoutX="117.0" layoutY="696.0" text="Ty:">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="yourNick" layoutX="171.0" layoutY="696.0" text="Nick">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="whoStarts" alignment="CENTER" graphicTextGap="0.0" layoutX="195.0" layoutY="22.0" prefHeight="41.0" prefWidth="278.0" text="Twoj ruch" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
